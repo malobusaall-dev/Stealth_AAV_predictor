@@ -1,0 +1,10 @@
+sequence;partition;mutation_sequence;num_mutations;num_edits;viral_selection;is_viable
+ADEEIRATNPIATEMYGSVSTNLQLGNR;designed;AD____A___I___M_________L___;6;6;-2.02725920398;False
+ADEEIRATNPVATEQYGSVSTNQQRQNR;designed;AD____A_______________Q__Q__;5;5;-0.42955420742;True
+ADEEIRTTNPVATEQWGGVSTNLQIGNY;designed;AD_____________W_G______I__Y;6;6;-0.527843044088;True
+ADEEIRTTNPVATEQYGEVSTNLQRGNR;designed;AD_______________E__________;3;3;2.8879076544;True
+ADEEIRTTNPVATEQYGSVSTNLQRGNR;designed;AD__________________________;2;2;0.5757300521750001;True
+ADEEIRTTNPVATEQYGSVSTNPvQRGNR;designed;AD____________________Pv_____;4;4;-1.8152265163299999;False
+ADEEIRTTNPVATEQYGSVSTnNLQRnGNR;designed;AD___________________n____n___;4;4;0.401619503608;True
+ADEEIRTTNPVATEVYGSVSTNLQKSNR;designed;AD____________V_________KS__;5;5;-0.6677195636909999;True
+ADMEIIQVNPYATEQYGDCSTPLQHMTG;designed;ADM__IQV__Y______DC__P__HMTG;14;14;-5.07420270559;False
