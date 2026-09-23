@@ -45,7 +45,7 @@ _Helena Costa Verdera,1,2 Klaudia Kuranda,3 and Federico Mingozzi1,3_
 _Roberto Calcedo, James M. Wilson_](https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2013.00341/full)
 
 
-Note : Pour des raisons de confidentialité et de taille, le dataset complet n'est pas hébergé sur ce dépôt. Vous trouverez cependant le fichier _exemple.csv_ qui reprend la même structure que le fichier d'origine avec les 10 premières lignes (le fichier d'origine en compte un peu moins de 300 000). 
+Note : Pour des raisons de confidentialité, le dataset complet n'est pas hébergé sur ce dépôt. Vous trouverez cependant le fichier _exemple.csv_ qui reprend la même structure que le fichier d'origine avec les 10 premières lignes (le fichier d'origine en compte un peu moins de 300 000). 
 
 Le fichier d'origine est trouvable [ici](https://github.com/alibashir/aav?utm_source=gemini) (vers le dépôt github Deep diversification of an AAV capsid protein by machine learning )
  
