@@ -2,7 +2,7 @@
 
 ## Objectif
 
-Ce projet est une preuve de concept visant à prédire les scores de sélection virale de variants de capsides d'AAV (Adeno-Associated Virus). Il utilise le modèle de langage protéique ESM-2 (développé par Meta) pour extraire les embeddings des séquences, couplé à un modèle de régression (SVR) pour évaluer la viabilité des mutations.
+Ce projet est vise à prédire les scores de sélection virale de variants de capsides d'AAV (Adeno-Associated Virus). Il utilise le modèle de langage protéique ESM-2 (développé par Meta) pour extraire les embeddings des séquences, couplé à un modèle de régression pour évaluer la viabilité des mutations.
 
 
 
