@@ -1,0 +1,33 @@
+--- CONDITIONS DU TEST ---
+Date de l'analyse : 2026-09-30 17:10
+Fichier modèle utilisé : modele_svr_50k.joblib
+Modèle d'extraction : ESM-2 (8M paramètres - t6_8M_UR50D)
+Modèle d'apprentissage : SVR (Scikit-Learn, C=1.0, epsilon=0.2)
+Taille du jeu d'entraînement : 50 000 séquences
+Taille de l'échantillon de test : 10 séquences inédites
+
+--- RAPPORT DE VIABILITÉ BIOLOGIQUE (Seuil > 0) ---
+Écart Absolu Moyen (MAE) : 1.408
+
+Précision (Hit Rate) : 100.0% -> Si le modèle dit OUI, il a raison dans 100.0% des cas.
+Rappel (Sensibilité) : 50.0% -> Le modèle détecte 50.0% de toutes les capsides viables.
+Exactitude Globale   : 70.0%
+
+--- MATRICE DE CONFUSION ---
+Vrais Positifs (Succès labo)       : 3
+Faux Positifs (Échecs labo/Coût)   : 0
+Vrais Négatifs (Déchets évités)    : 4
+Faux Négatifs (Opportunités ratées): 3
+
+--- DONNÉES BRUTES ---
+                     Séquence (boucle)  Score Réel  Score Prédit  Différence absolue
+         AEEEIRTTNPVATEQYGSVSTNLNEGAeN    1.175699      1.281990            0.106291
+   FEEEIRTTNPVATEQYGSCSpSQpALeViIePqDm   -5.437757     -5.202569            0.235188
+    DEEEIRTTNPVAYEQYGqCVcSTEHQeYfGsNQs    0.419295      0.861395            0.442100
+         YEEEIRTTNVVATEQYGSdVSTNLQRGHT   -5.392669     -4.931362            0.461308
+DEqEaEISTTNPVAYECWGSVSWgDgQqQqDrRgDkEq   -3.737317     -4.869352            1.132035
+    DEEEIRTTNPVATEQYGStIScTgNLsQRGgNRd    0.620605     -0.976274            1.596879
+        DEEEIRTTNPTATEQFGEVSfTNLQRGdNR   -3.325482     -1.667674            1.657808
+   DEEEICTTNPVATEQYGEVSTgGpLQdHqQgNmGh    0.500693     -1.414872            1.915565
+          DEEEIRTTNPVATEQYGSVSTNLQNGNN    5.201514      2.538244            2.663270
+   DETEIATTNPVATEQYGSVcAaTmHGeAtIdGERh    0.938622     -2.933757            3.872379
