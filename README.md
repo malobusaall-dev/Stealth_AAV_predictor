@@ -24,6 +24,17 @@ Le pipeline d'analyse est modulaire et se divise en quatre grandes phases :
 
 4. Sauvegarde & Inférence : Sérialisation des matrices et du modèle pour permettre des prédictions rapides sur de nouvelles séquences sans nécessiter un ré-entraînement complet. Les matrices d'entraînement allégées (run de 50k) et le modèle pré-entraîné sont disponibles sur le dépôt. Pour les utiliser, il suffit de les placer à la racine du dossier contenant le notebook.
 
+5. Tests et evaluation des résultats, génération d'un fichier rapport en .txt
+
+
+S'ajoute ensuite la partie génération de nouvelles capsides : 
+
+Elle intègre un bloc d'initialisation, qui permet de charger un modèle déjà créé (via le premier programme)
+Ensuite, on retrouve le même bloc de test et d'évaluation afin de s'assurer que l'initialisation a bien fonctionné. 
+
+En développement : 
+Génération aléatoire de mutations, qui passeront dans le modèle de prédiction SVR afin de découvrir les capsides les plus efficaces 
+
 ### Technologie :
 
 Modèle de Langage Protéique : ESM-2 (fair-esm)
