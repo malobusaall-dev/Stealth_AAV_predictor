@@ -58,6 +58,9 @@ Séquence de référence VP3 : NCBI QDH44321.1
 ⚠️ Note : Pour des raisons de taille et de performance, le dataset complet n'est pas hébergé sur ce dépôt. Un fichier Variants_echantillon.csv comprenant 10 lignes au hasard est fourni pour comprendre la structure attendue (colonnes : sequence, viral_selection, etc.) et tester le code localement.
 
 
+En revanche, vous pouvez télécharger [ici](https://huggingface.co/MaloBSL/Stealth_AAV_Predictor) (vers Hugging Face) le modèle pré-entraîné sur 50 000 séquences de capsides d'AAV.
+
+
 ### Exemple de run : 
 Un premier entraînement a été validé sur un échantillon de 50 000 séquences.
 
